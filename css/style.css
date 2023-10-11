@@ -1,0 +1,41 @@
+:root {
+    --color-bg-body: #083b4c;
+    --color-bg-box: #1389b2;
+    --color-bg-buzz: #ffd166;
+    --color-bg-fizz: #0cd6a1;
+    --color-bg-fizzbuzz: #f0466f;
+}
+body {
+    background-color: var(--color-bg-body);
+}
+main h1 {
+    font-size: 4em;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.box {
+    width: 180px;
+    height: 180px;
+    font-size: 1.5em;
+    transition: all 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+    cursor: pointer;
+}
+.bg-box {
+    background-color: var(--color-bg-box);
+}
+.bg-fizz {
+    background-color: var(--color-bg-fizz);
+}
+.bg-buzz {
+    background-color: var(--color-bg-buzz);
+}
+.bg-fizzbuzz {
+    background-color: var(--color-bg-fizzbuzz);
+}
